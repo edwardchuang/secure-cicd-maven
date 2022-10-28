@@ -5,6 +5,10 @@ substitutions:
   _REPO_NAME: maven-demo-app
   _APP_NAME: demo-app
   _PIPELINE_NAME: security-demo-pipeline
+  _NOTE_ID: my-signer-note
+  _NOTE_NAME: projects/${PROJECT_ID}/notes/${_NOTE_ID}
+  _KMS_DIGEST_ALG: SHA256
+  _KMS_KEY_NAME: projects/$PROJECT_ID/locations/global/keyRings/kritis-signer-key-ring/cryptoKeys/kritis-signer-key/cryptoKeyVersions/1
 steps:
   # integration tests app with Maven
   - name: maven:3-eclipse-temurin-17
