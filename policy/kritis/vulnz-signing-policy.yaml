@@ -14,3 +14,6 @@ spec:
     - projects/goog-vulnz/notes/CVE-2022-31692
     - projects/goog-vulnz/notes/CVE-2022-3786
     - projects/goog-vulnz/notes/CVE-2022-3602
+    - projects/goog-vulnz/notes/CVE-2022-3715
+    - projects/goog-vulnz/notes/CVE-2022-42800
+    - projects/goog-vulnz/notes/CVE-2022-3821 
